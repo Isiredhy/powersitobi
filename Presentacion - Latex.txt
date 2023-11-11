@@ -1,0 +1,184 @@
+% Trabajofinal Grupal UNSA
+
+\documentclass[final]{beamer}
+
+% ====================
+% Packages
+% ====================
+
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[orientation=portrait,size=a0,scale=1.0]{beamerposter}
+\usetheme{gemini}
+\usecolortheme{nott}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{tikz}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.14}
+\usepackage{anyfontsize}
+\graphicspath{ {logos/} }
+
+% ====================
+% Lengths
+% ====================
+
+% If you have N columns, choose \sepwidth and \colwidth such that
+% (N+1)*\sepwidth + N*\colwidth = \paperwidth
+\newlength{\sepwidth}
+\newlength{\colwidth}
+\setlength{\sepwidth}{0.025\paperwidth}
+\setlength{\colwidth}{0.45\paperwidth}
+
+\newcommand{\separatorcolumn}{\begin{column}{\sepwidth}\end{column}}
+
+% ====================
+% Title
+% ====================
+
+\title{Powersito BI}
+
+\author{Daythia Chauca \inst{1} \and Humberto Valdivia \inst{2} }
+% ====================
+% Footer (optional)
+% ====================
+
+\footercontent{
+  {Maestría en Ciencias Informática - UNSA} \hfill
+  }
+\logoright{\includegraphics[height=7cm]{logos/virtual.png}}
+\logoleft{\includegraphics[height=7cm]{logos/unsa2.png}}
+
+% ====================
+% Body
+% ====================
+
+\begin{document}
+
+\begin{frame}[t]
+\begin{columns}[t]
+\separatorcolumn
+
+\begin{column}{\colwidth}
+
+  \begin{block}{Herramientas}
+
+    \textbf{¿Qué es Power Virtual Agents?}
+    \newline
+    \newline
+    Power Virtual Agents utiliza tecnologías de inteligencia artificial, específicamente en el área de procesamiento del lenguaje natural (NLP, por sus siglas en inglés). El servicio se basa en el modelo de lenguaje BERT (Bidirectional Encoder Representations from Transformers) de Google para comprender y procesar el lenguaje natural.
+
+    BERT es un modelo de aprendizaje profundo que ha demostrado ser efectivo para tareas de NLP, ya que tiene la capacidad de comprender el contexto y la relación entre las palabras en una oración. Esto permite a Power Virtual Agents comprender mejor las preguntas y respuestas de los usuarios, incluso en contextos más complejos.
+    
+    Además del procesamiento del lenguaje natural, Power Virtual Agents se integra con otras capacidades de inteligencia artificial dentro del ecosistema de Microsoft, lo que incluye la capacidad de conectarse a servicios cognitivos como Azure Cognitive Services para funciones como reconocimiento de imágenes, análisis de sentimientos, traducción de idiomas, entre otros.
+    
+    En resumen, Power Virtual Agents aprovecha tecnologías de inteligencia artificial, especialmente el procesamiento del lenguaje natural, para crear chatbots efectivos y capaces de comprender y responder a las preguntas de los usuario
+
+  \end{block}
+
+  \begin{alertblock}{¿Que tipo de IA utiliza?}
+    \newline
+    \newline
+    En todo el mundo, las empresas adoptan rápidamente soluciones de inteligencia artificial conversacional para satisfacer mejor las necesidades de sus clientes al tiempo que aumentan la involucración, reducen los costes y fomentan la productividad. Qué es la IA conversacional
+    Piense en la última vez que recibió un servicio al cliente excelente. ¿Qué lo hizo especial? ¿Cuánto duró la interacción? Y una pregunta más: ¿quién le ayudó, una persona o una máquina?
+    
+    Gracias a los rápidos avances en IA, su respuesta a la última pregunta podría ser cualquiera de las dos. Los ordenadores ahora cuentan con el don de la palabra gracias a la IA conversacional, y lo hacen cada día mejor.
+    
+    La IA conversacional hace referencia a un conjunto de tecnologías que permiten que los dispositivos y aplicaciones, como los bots de chat, conversen con personas empleando sus lenguajes naturales.
+    
+    La IA conversacional emplea el aprendizaje automático y el procesamiento del lenguaje natural para recopilar y analizar lenguajes, comprenderlos y luego generar respuestas similares a las humanas. Los bots de chat y los dispositivos que dependen de la IA conversacional se vuelven más inteligentes con el tiempo, al usar los datos y la información de las conversaciones para mejorar los resultados.
+    
+    Además de conversar con las personas, las tecnologías controladas por IA también pueden realizar tareas al conectarse con servicios y sistemas internos y externos. En otras palabras, un bot de chat o dispositivo que usa IA conversacional no se limita a sus propios datos o conocimientos; puede buscar respuestas y soluciones conectándose a otros equipos.
+
+  \end{alertblock}
+
+  \begin{block}{Desarrollo}
+    \newline
+    \newline
+    Para poder crear el proyecto se tuvieron que tener en cuenta los siguientes pasos:
+    \newline
+    \newline
+
+    \begin{itemize}
+        \item \textbf{Creación del Proyecto (Chat Bot)}
+            \newline
+            \includegraphics{logos/paso1.jpg}
+        
+        \item \textbf{Creación Tema (Chat Bot)}
+            \newline
+            \includegraphics{logos/paso2.jpg}
+
+         \item \textbf{Creación del proceso de desencadenamiento}
+            \newline
+            \includegraphics{logos/paso3.jpg}
+
+         \item \textbf{Configuración de variables}
+            \newline
+            \includegraphics{logos/paso4.jpg}
+        
+    \end{itemize}
+
+  \end{block}
+
+ 
+
+\end{column}
+
+\separatorcolumn
+
+\begin{column}{\colwidth}
+
+  \begin{block}{Inicio de la aplicación}
+    \centering
+    \includegraphics{logos/Inicio.jpg}
+  \end{block}
+
+  \begin{block}{Diagrama}
+   \centering
+   \includegraphics{logos/Diagrama.jpg}
+
+  \end{block}
+
+  \begin{block}{¿Que permite hacer Powersito BI?}
+
+    Power BI es una solución de análisis empresarial basado en la nube, que permite unir diferentes fuentes de datos, analizarlos y presentar un análisis de estos a través de informes y paneles. Con Power BI se tiene de manera fácil acceso a datos dentro y fuera de la organización casi en cualquier dispositivo.
+    Para esta aplicación de ayuda de la herramienta de Power BI solo se tomaron en cuenta los siguientes puntos:
+    \begin{itemize}
+      \item \textbf{Instalación}.
+      \item \textbf{Configuración}.
+      \item \textbf{Generación del primer reporte}.
+    \end{itemize}
+
+    \centering
+    \includegraphics{logos/temas.jpg}
+
+  \end{block}
+
+  
+  \begin{exampleblock}{Conclusiones}
+
+    En el presente trabajo aprendimos a hacer uso de la IA a través de la herramienta “Power Virtual Agents” que es una herramienta que nos ayuda a utiliza tecnologías de inteligencia artificial, específicamente en el área de procesamiento del lenguaje natural.
+    
+    También se vio la forma como se puede integrar a las diferentes plataformas de trabajo como por ejemplo Microsoft Teams, Facebook, Skype, etc.
+
+  \end{exampleblock}
+
+ 
+
+  \begin{block}{Publicación del proyecto}
+    El proyecto fue publicado en la siguiente dirección URL:
+    \newline
+    \newline
+    \href{https://sites.google.com/unsa.edu.pe/powersito/inicio}{https://sites.google.com/unsa.edu.pe/powersito/inicio}
+
+  \end{block}
+
+\end{column}
+\separatorcolumn
+
+
+
+\end{columns}
+\end{frame}
+
+\end{document}
